@@ -1,4 +1,4 @@
-# Emodefy
+# Emodemy
 
 Microsoft Hackathon project 
 
