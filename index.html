@@ -79,31 +79,65 @@
       
       <a-box id="goodResponse"
              position="2.78 1.3 0.6" rotation="0 64 0" color="#f8f894" scale="0.08 0.5 1.03"
-             event-set__down="_event: mousedown; color: #00ffcc"
-             event-set__enter="_event: mouseenter; color: #8FF7FF"
-             event-set__leave="_event: mouseleave; color: ##f8f894">
+             event-set__down="_event: mousedown; color: #00cc66"
+             event-set__enter="_event: mouseenter; color: #8FF7FF">
       </a-box>
       
       <a-box id="greatResponse"
              position="2.78 0.7 0.6" rotation="0 64 0" color="#f8f894" scale="0.08 0.5 1.03"
              event-set__down="_event: mousedown; color: #00ff00"
-             event-set__enter="_event: mouseenter; color: #8FF7FF"
-             event-set__leave="_event: mouseleave; color: ##f8f894">
+             event-set__enter="_event: mouseenter; color: #8FF7FF">
       </a-box>
       
       <a-box id="badResponse"
              position="0.36 1.3 0.5" rotation="0 -64 0" color="#f8f894" scale="0.08 0.5 1.03"
-             event-set__down="_event: mousedown; color: #ff0000"
-             event-set__enter="_event: mouseenter; color: #8FF7FF"
-             event-set__leave="_event: mouseleave; color: ##f8f894">
+             event-set__down="_event: mousedown; color: #ff9900"
+             event-set__enter="_event: mouseenter; color: #8FF7FF">
+
       </a-box>
       
       <a-box id="terribleResponse"
              position="0.36 0.7 0.5" rotation="0 -64 0" color="#f8f894" scale="0.08 0.5 1.03"
-             event-set__down="_event: mousedown; color: #00ff00"
-             event-set__enter="_event: mouseenter; color: #8FF7FF"
-             event-set__leave="_event: mouseleave; color: ##f8f894">
+             event-set__down="_event: mousedown; color: #ff0000"
+             event-set__enter="_event: mouseenter; color: #8FF7FF">
       </a-box>
+      
+      
+      
+            <a-entity mixin="marker" position="-1 2 0.01"></a-entity>
+          <a-entity position="3.2 1.35 1"
+                    rotation= "0 -30 0"
+                text="width: 2; lineHeight: 50; letterSpacing: 5; color: black; value: I'm sorry, he's
+                      in a better place">
+          </a-entity>
+      <a-entity src="#model"></a-entity>
+      
+      <a-entity mixin="marker" position="-1 2 0.01"></a-entity>
+          <a-entity position="3.2 0.78 1"
+                    rotation= "0 -30 0"
+                text="width: 2; lineHeight: 50; letterSpacing: 5; color: black; value: I'm here for you,
+                      if you need 
+                      anything">
+          </a-entity>
+      <a-entity src="#model"></a-entity>
+      
+            
+      <a-entity mixin="marker" id="badText" position="-1 2 0.01"></a-entity>
+          <a-entity position="0.9 1.3 0.3"
+                    rotation= "0 27 0"
+                text="width: 2; lineHeight: 50; letterSpacing: 5; color: black; value: You'll be fine">
+          </a-entity>
+      <a-entity src="#model"></a-entity>
+      
+      <a-entity mixin="marker" id="terribleText" position="-1 2 0.01"></a-entity>
+      <a-entity position="0.9 0.7 0.3"
+                rotation= "0 27 0"
+                text="width: 2; lineHeight: 50; letterSpacing: 5; color: black; value: Get over it...">
+      </a-entity>
+      <a-entity src="#model"></a-entity>
+      
+      
+      
       
       <a-camera position="1 0 3">
         <a-cursor></a-cursor>
