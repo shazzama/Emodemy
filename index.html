@@ -7,9 +7,45 @@
   </head>
   <body>
     <a-scene>
-
+      
        <a-assets>
-          <img id="my-image" src="https://cdn.glitch.com/c245bc72-8bb7-4a9e-ba11-571cf477b7b2%2FsadPersoncolorFINAL2.png?1519510791020">
+           <img id="doggo" src="https://cdn.glitch.com/0eae8c88-807e-4238-b83d-904b68b9e2b7%2FCOrgiFInal.png?1519510993914">
+        </a-assets>
+      
+      <a-image src="#doggo" position="-0.5 0.5 -0.5" scale="1 1 1" rotation="-20 0 0" alpha-test="0.5"></a-image>
+      
+      
+      <a-assets>
+           <img id="lamp" src="https://cdn.glitch.com/0eae8c88-807e-4238-b83d-904b68b9e2b7%2FLamp.png?1519511365131">
+        </a-assets>
+      
+      <a-image src="#lamp" position="2.5 1 -1" scale="3 3 3" rotation="0 0 0" alpha-test="0.5"></a-image>
+      
+      
+      <a-assets>
+           <img id="window" src="https://cdn.glitch.com/0eae8c88-807e-4238-b83d-904b68b9e2b7%2Fwindow.png?1519511589794">
+      </a-assets>
+      
+      <a-image src="#window" position="2.5 1.3 -1.8" scale="1.5 1.5 1.5" rotation="0 0 0" alpha-test="0.5"></a-image>
+      
+      
+      <a-assets>
+           <img id="shelf" src="https://cdn.glitch.com/0eae8c88-807e-4238-b83d-904b68b9e2b7%2FBookShelf.png?1519511775839">
+      </a-assets>
+      
+      <a-image src="#shelf" position="-1 1 -1.3" scale="2 2 2" rotation="0 0 0" alpha-test="0.5"></a-image>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+       <a-assets>
+          <img id="my-image" src="https://cdn.glitch.com/0eae8c88-807e-4238-b83d-904b68b9e2b7%2FsadPersoncolorFINAL2.png?1519510656341">
       </a-assets>
       
       <a-image src="#my-image" position="1.5 1 0.2" scale="2 2 2" rotation="-20 -20 0" alpha-test="0.5"></a-image>
@@ -34,10 +70,15 @@
       </rw-room>
       <a-entity mixin="marker" position="-1 2 0.01"></a-entity>
       <a-entity position="2 1.75 0"
-                text="width: 2; lineHeight: 50; letterSpacing: 5; color: black; value: I lost my phone :( ">
+                text="width: 2; lineHeight: 50; letterSpacing: 5; color: black; value: Ut enim ad minim veniam">
       </a-entity>
+      <a-entity src="#model"></a-entity>
       
-      <a-entity id="refresh-button" geometry="primitive: box" material="color: red" scale="1 0.5 0" position="2.5 1 0.5" rotation="-20 -20 0"></a-entity>
+      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"
+             event-set__enter="_event: mouseenter; color: #8FF7FF"
+             event-set__leave="_event: mouseleave; color: #4CC3D9">
+      </a-box>
+      
       <a-camera position="0 0 2.5">
         <a-cursor></a-cursor>
       </a-camera>
