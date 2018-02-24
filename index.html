@@ -8,6 +8,7 @@
   <body>
     <a-scene>
       <a-assets>
+        <a-asset-item id="model" src="./assets/male.obj"></a-asset-item>
       </a-assets>
       <rw-room position="-2 0 -2" material="color:#866">
         <rw-wall position="6 0 0"></rw-wall>
@@ -30,6 +31,7 @@
       <a-entity position="2 1.75 0"
                 text="width: 2; lineHeight: 50; letterSpacing: 5; color: black; value: Ut enim ad minim veniam">
       </a-entity>
+      <a-entity src="#model"></a-entity>
       <a-camera position="0 0 2.5">
       </a-camera>
     </a-scene>
