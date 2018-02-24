@@ -7,7 +7,9 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="2 0.5 0.5" rotation="0 45 0" color="#4CC3D9"></a-box>
+      
+      <a-box position="2 1.0 0.5" scale="1 1.5 1 "rotation="0 45 0" 
+             src="https://cdn.glitch.com/0eae8c88-807e-4238-b83d-904b68b9e2b7%2FsadPersonwhitebGPNG.png?1519508173447" ></a-box>
 
       <rw-room position="-2 0 -2" material="color:#866">
         <rw-wall position="6 0 0"></rw-wall>
@@ -28,13 +30,14 @@
       </rw-room>
       <a-entity mixin="marker" position="-1 2 0.01"></a-entity>
       <a-entity position="2 1.75 0"
-                text="width: 2; lineHeight: 50; letterSpacing: 5; color: black; value: I lost my phone :(">
+                text="width: 2; lineHeight: 50; letterSpacing: 5; color: black; value: Ut enim ad minim veniam">
       </a-entity>
-
+      <a-entity src="#model"></a-entity>
       <a-camera position="0 0 2.5">
       </a-camera>
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
       <a-plane position="1.737 0 2" scale="2 2 2" rotation="-90 0 0" width="4" height="4" color="#42000b"></a-plane>
+       <a-sky color="#d0eafb"></a-sky>
     </a-scene>
   </body>
 </html>
