@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>My A-Frame Scene</title>
+  <title>Emodemy</title>
   <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script> 
   <script src="https://unpkg.com/aframe-room-component/dist/aframe-room-component.min.js"></script> 
-</head>
- 
-<body>
+  </head>
+  <body>
     <a-scene>
-        <rw-room position="-2 0 -2" material="color:#866">
-            <rw-wall position="6 0 0"></rw-wall>
-            <rw-wall position="6 0 6"></rw-wall>
-            <rw-wall position="0 0 6"></rw-wall>
-            <rw-wall position="0 0 0">
-          		<rw-doorhole id="holeA"></rw-doorhole>
-          		<rw-doorlink from="#holeA" to="#holeB" position="2.5 0 0"></rw-doorlink>
-            </rw-wall>
-        </rw-room>
-        <rw-room position="0 0 -3">
-            <rw-wall position=" 1 0 -1" material="color:#787"></rw-wall>
-            <rw-wall position=" 1 0  1" material="color:#877">
-                <rw-doorhole id="holeB"></rw-doorhole>
-            </rw-wall>
-            <rw-wall position="-1 0  1" material="color:#878"></rw-wall>
-            <rw-wall position="-1 0 -1" material="color:#778"></rw-wall>
-        </rw-room>
+      <rw-room position="-2 0 -2" material="color:#866">
+        <rw-wall position="6 0 0"></rw-wall>
+        <rw-wall position="6 0 6"></rw-wall>
+        <rw-wall position="0 0 6"></rw-wall>
+        <rw-wall position="0 0 0">
+          <rw-doorhole id="holeA"></rw-doorhole>
+          <rw-doorlink from="#holeA" to="#holeB" position="2.5 0 0"></rw-doorlink>
+        </rw-wall>
+      </rw-room>
+      <rw-room position="0 0 -3">
+        <rw-wall position=" 1 0 -1" material="color:#787"></rw-wall>
+        <rw-wall position=" 1 0  1" material="color:#877">
+          <rw-doorhole id="holeB"></rw-doorhole>
+        </rw-wall>
+        <rw-wall position="-1 0  1" material="color:#878"></rw-wall>
+        <rw-wall position="-1 0 -1" material="color:#778"></rw-wall>
+      </rw-room>
       <a-entity mixin="marker" position="-1 2 0.01"></a-entity>
-      <a-entity position="-1 2 0"
+      <a-entity position="2 1.75 0"
                 text="width: 2; lineHeight: 50; letterSpacing: 5; color: black; value: Ut enim ad minim veniam">
       </a-entity>
+      <a-camera position="0 0 2.5">
+      </a-camera>
     </a-scene>
-</body>
+  </body>
 </html>

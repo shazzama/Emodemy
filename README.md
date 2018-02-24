@@ -1,18 +1,16 @@
-# My cool website
+# Emodefy
 
-This file describes your project to the community. What's your cool website about? What makes it special?
-
-ヽ(๏∀๏ )ﾉ
+Microsoft Hackathon project 
 
 ## ← index.html
 
-Where you'll write the content of your website. 
+Our HTML5 code, implemented with the A-frame VR framework
 
 ## ← styles.css
 
-CSS files add styling rules to your content
+Our CSS files for styling
 
 ## ← script.js
 
-If you're feeling fancy you can add interactivity to your site with Javascript
+Our Javascript code for interactive, responsive pages
 
