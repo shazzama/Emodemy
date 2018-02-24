@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
   <head>
   <title>Emodemy</title>
@@ -7,9 +7,8 @@
   </head>
   <body>
     <a-scene>
-      <a-assets>
-        <a-asset-item id="model" src="./assets/male.obj"></a-asset-item>
-      </a-assets>
+      <a-box position="2 0.5 0.5" rotation="0 45 0" color="#4CC3D9"></a-box>
+
       <rw-room position="-2 0 -2" material="color:#866">
         <rw-wall position="6 0 0"></rw-wall>
         <rw-wall position="6 0 6"></rw-wall>
@@ -31,9 +30,11 @@
       <a-entity position="2 1.75 0"
                 text="width: 2; lineHeight: 50; letterSpacing: 5; color: black; value: Ut enim ad minim veniam">
       </a-entity>
-      <a-entity src="#model"></a-entity>
+
       <a-camera position="0 0 2.5">
       </a-camera>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-plane position="1.737 0 2" scale="2 2 2" rotation="-90 0 0" width="4" height="4" color="#42000b"></a-plane>
     </a-scene>
   </body>
 </html>
