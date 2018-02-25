@@ -1,8 +1,7 @@
 # Emodemy
 
-### Microsoft Hackathon project 
-### A Web-Based VR Social Simulator 
-### Implemented in HTML5, with the [A-FRAME](https://aframe.io/) VR Framework
+#### Microsoft Hackathon project - A Web-Based VR Social Simulator 
+#### Implemented in HTML5, with the [A-FRAME VR Framework](https://aframe.io/)
 
 
 ![alt text](https://github.com/shazzama/Emodemy/blob/master/sc1.png)
@@ -29,3 +28,8 @@ However, individuals may struggle with compound emotions and responding appropri
 * User’s physical interaction with virtual environment (hugging the person, giving them something)
 * Involving family members in scenarios, crowdsourcing
 
+## Authors:
+* [shazzama](https://github.com/shazzama)
+* [margiee](https://github.com/margiee)
+* [felixhe97](https://github.com/felixhe97)
+* [alyeffy](https://github.com/alyeffy)
