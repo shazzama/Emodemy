@@ -4,6 +4,10 @@ Microsoft Hackathon project
 A Web-Based VR Social Simulator 
 
 
+![alt text](https://github.com/shazzama/Emodemy/blob/master/sc1.png)
+
+
+
 ABA has had success with equipping individuals with ASD with social skills that enable them to live a happier lifestyle
 However, individuals may struggle with compound emotions and responding appropriately to different degrees of emotions
 
