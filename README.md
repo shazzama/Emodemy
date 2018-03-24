@@ -22,6 +22,12 @@ However, individuals may struggle with compound emotions, and with responding ap
 * Responses that are more appropriate will earn the user more points
 * Accumulated points can be used to earn rewards for the user
 
+## Treatment Validation:
+* Point system is a form of operant conditioning where positive behaviours will be reinforced with the awarding of more points
+* Positive reinforcement occurs via the reward redemption system, which varies per user and should be pre-determined
+* e.g. If a child really enjoys going outside, a certain number of points can be redeemed to earn an hour of being outdoors
+* Such conditioning is currently being used effectively in ABA, but of course experimental studies will need to be done to determine the degree of efficacy Emodemy might provide if incoroporated into the program
+
 ## Future additions:
 * Facial expressions
 * Body language
